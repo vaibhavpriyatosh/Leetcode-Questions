@@ -1,7 +1,7 @@
 class Solution {
     public static String cntsy(int num){
         if(num==1)
-            return "1";
+            return "1";//no more counting
 
         String s=cntsy(num-1);
         int n=s.length();
