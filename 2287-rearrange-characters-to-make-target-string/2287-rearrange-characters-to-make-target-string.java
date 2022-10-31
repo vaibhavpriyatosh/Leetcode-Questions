@@ -2,7 +2,7 @@ class Solution {
     public int rearrangeCharacters(String s, String target) {
         
         int ch[]=new int[26];
-        int temp[]=new int[26];
+        int temp[]=new int[26];//commenting 
         
         for(int i=0;i<s.length();i++){
             ch[s.charAt(i)-'a']++;
